@@ -1,0 +1,946 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d6d6d6;
+    margin-bottom: 60px;
+}
+header{
+    width: 100%;
+    height: 67px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+/*________________________________________________*/
+/*+++++++++++++++++++++++++++++++++*
+
+/*LEFT SIDE KA NAV*/
+.left_side_nav
+{
+    width: 60%;
+    height: 43px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: -15px;
+    gap: 90px;
+}
+/*logo of flipkard*/
+.flipkard_logo
+{
+    width: 160px;
+    height: 40px;
+    align-items: center;
+    margin-left: -40px;
+}
+/*search logo ka div*/
+.search-icon
+{
+    width: 42px;
+    height: 40px;
+    background-color: #b2dae8;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: -100px;
+}
+.search_icon_flip{/*search ka logo*/
+    width: 24px;
+    height: 24px;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-weight: 700;
+    margin-top: 10px;
+    border: #ffffff;
+} 
+/*input ka div*/
+.input_ka_div
+{
+  width: 366px; 
+  height: 40px; 
+}
+.input_search/*input option*/
+{
+    width: 586px;
+    height: 40px;
+    margin-left: -170px;
+    border: rgb(255, 255, 255);
+    border-left: 2px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #b2dae8;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+   /*....................*/
+
+.font_design{
+    font-size: 25px;
+    letter-spacing: 0;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+    --sm-max-width: 480px;
+    --md-max-width: 996px;
+    --lg-max-width: 1600px;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.icon_design{
+    -webkit-text-size-adjust: 100%;
+    font-size: 12px;
+    letter-spacing: 0;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+    --sm-max-width: 480px;
+    --md-max-width: 996px;
+    --lg-max-width: 1600px;
+    color: #333;
+    width: 24px;
+    aspect-ratio: auto 24 / 24;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    margin-right: 8px;
+}
+   /*.....................*/
+
+/*RIGHT SIDE KA NODE*/
+.right_side_nev{
+    width: 40%;
+    height:40px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*login main div*/
+.login_main_div
+{
+    width: 151px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.blue_border:hover{
+ border: none;
+ border-radius: 8px;
+ background-color: rgb(0, 0, 251);   
+}
+
+.log_icon/*login ka icon*/
+{
+    width: 24px;
+    height: 24px;
+    font-size: 25px;
+}
+.log_icon_name/*login ka icon name*/
+{
+    width: 41px;
+    height: 24px;
+}
+.log_defi/*login ka defi ta*/
+{
+    width: 22px;
+    height: 12px;
+}
+
+/*shopping cart*/
+.shopping_cart{
+    width: 70px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+/*shop ka div*/
+.shop_ka_div
+{
+    width: 200px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+
+}
+.shop_logo{
+    width: 24px;
+    height: 24px; 
+}
+.shop_name{
+    width: 150px;
+    height: 24px;
+}
+
+/*three dot ka div*/
+.three_dot
+{
+    width: 41px;
+    height: 41px;
+    align-items: center;
+} 
+.three_dot_icon{
+    margin-top: 10px;
+}
+.three_dot:hover{
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 8px;
+    background-color: #fffbfb;
+}
+/*+++++++++++++++++++++++++++++++++*/
+/*________________________________
+
+
+
+/*_______________________________________________*/
+/* YAHA BAHUT SARE PRODUCT KE OPTION ka div*/
+.shopping_nav_ke_tab{
+    width: 99.99%;
+    background-color:#d6d6d6 ;
+  
+}
+.product_op_ka_div{
+    width: 100%;
+    height: 146px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-top: 80px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    /* column-gap: 40px; */
+
+}
+.pro_hi_wi{/*product ke div ki height*/
+    
+    width: 90px;
+    height:84px;
+    background-color: #ffffff;
+    margin-top: -40px;
+}
+
+
+/*_____________________________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________________________________________________*/
+/*YAHA SE SCROLLING BACKGROUND START HOGA HOGA*/
+.adding_bar_scrolling_the_line{
+    height: 600px;
+  
+ }
+ .scroll_bar_of_adds{
+      height: 250px;
+      background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1000/170/image/352e6f0f8034fab5.jpg?q=20");
+      background-size:cover;
+      box-shadow: #ffc8e6 13px;
+ }
+ .scroll_bar_of_adds_2{
+      height: 20px;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(0, 54, 63);
+      align-items: center;
+      text-align: center;
+      margin-top: 100px;
+ }
+/*_____________________________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________________________________________________*/
+/*AHA SE SHOPPING KA MAINA START HOGA*/
+.all_shopping_ka_main
+{
+    width: 100%;
+    height: 1000px;
+    color: #d6d6d6;
+    column-gap: 20px;
+}
+
+.shop_section_one{  /*shopping section one hai*/
+  width: 98.79%;
+  height: 383px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  border: 3px solid black;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-top: -320px;
+}
+.shop_ki_heading{
+    width: 98.79%;
+    height: 60px;
+    background-color: #fff;
+}
+.shop_ki_heading_size{
+    color: #212121;
+    font-weight: 600;
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0;
+    box-sizing: border-box;
+    display: inline;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    vertical-align: middle;
+}
+
+.shop_ke_images_ka_div{/*YAHA se shop me images dalte hai*/
+    background-color: #fff;
+    width: 98.79%;
+    height: 321px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    overflow-x:scroll ;
+    overflow-y: scroll;
+    overflow-x: auto;
+    gap: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.shop_ke_images_ka_div::-webkit-scrollbar
+{
+   width: 0px;
+}
+
+.shop_images{
+    width: 160px;
+    height: 212px;
+    color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.shop_images img{
+    width: 154px;
+    height: 150px;
+    background-color: #fff;
+}
+.Product_details{
+    color: #333;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    padding: 0;
+    padding-top: 12px;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+    height: 52px;padding: 0%;
+}
+.Product_details_price{
+    color: #333;
+    padding-top: 12px;
+    box-sizing: border-box;
+    height: 52px;padding: 0%;
+    margin-top: -10px;
+    background-color: #ff3939d7;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+/*_____________________________________________________________________________________________*/
+
+
+
+
+ /*____________________________________________________________________________________________*/
+ /* main ka 2 shopping part */
+ .main_2_ka_shopping_section{
+    width: 98.5%;
+    height: 297.23px;
+    background-color: #ffffff;margin-left: 10px;
+    justify-content: space-evenly;
+    margin-bottom:10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 6px;
+   }
+   .main_2_ka_shopping_section img{
+    border: 1px solid black;
+    border-radius: 4px;
+   }
+  
+   .main_2_ka_image_div{
+    width: 100%;
+    height: 240px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: scroll;
+    column-gap: 10px;
+   }
+  
+   .main_2_ka_image_div::-webkit-scrollbar
+   {
+      width: 0px;
+   }
+  
+   .main_2_ka_div_for_image{
+     width:fit-content;
+     height: fit-content;
+     color: #000;
+     margin-left: 100px
+  
+   }
+  
+  
+   .for{
+    -webkit-text-size-adjust: 100%;
+    --animation-length: 12s;
+    --animation-delay: 1s;
+    --animation-timing: 0.5;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    white-space: nowrap;
+    text-rendering: optimizeLegibility;
+    font-weight: 700;
+    font-size: 21px!important;
+    line-height: 1.5!important;
+    box-sizing: border-box;
+    color: #0F1111!important;
+    margin-left: 100px;
+   }
+  /*++++++++++++++++++++++++++++++++++*/
+  /*ADD PURPOSE KE LIYE HAI*/
+  .mix_tabs{
+    width: 98.5%;
+    height: 480px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-bottom: 1%;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 75px;
+  }
+  /*___________________________________________________________________________________________*/
+
+
+
+
+
+  /*___________________________________________________________________________________________*/
+  /* main ka 3 shopping part */
+.main_3_ka_shopping_section{
+    width: 98.64%;
+    height: 400px;
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.main_3_div_ki_hadding{
+    width: 98.64%;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    opacity: 30;
+}
+
+.main_3_ke_images_ka_div{
+    width:100% ;
+    height: 359px;
+    background-color: #fff;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     border: 1px solid black;
+     border-radius: 4px;
+     overflow: auto;
+     row-gap: 20px;
+}
+.main_3_ke_images_ka_div::-webkit-scrollbar
+{
+   width: 0px;
+}
+
+.imaged_div{
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.main_3_ki_detaile
+{
+    width: 200px;
+    height: 25px;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.main_3_ki_detailed_2{
+    width: auto;
+    height: 25px;
+    color: white;
+    background-color: red;
+    border:1px solid black ;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.main_3_ka_images{
+     width: 200;
+     height: 140;
+}
+/*_______________________________________________*/
+
+
+
+
+
+
+/*_______________________________________________*/
+.main_4{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin-left: 10px;
+}
+.main_4::-webkit-scrollbar
+{
+   width: 0px;
+}
+
+
+.main_4_ka_shopping_section{
+    width:410px ;
+    height: 580px;
+    border: 2px solid black;
+    border-radius: 4px;
+    column-gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+.heading_ki_detailes{
+    color: #000;
+    width: 410px;
+    height: 45px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.div_1{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 4px;
+    background-color: #fff;
+    margin-top: 8px;
+}
+.div_1 img{
+    border: none;
+    border-radius: 10px;
+}
+.main_4_ka_detailes{
+    width: auto;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 0, 0);
+    color: rgb(245, 255, 245);
+    border: 1px solid black;
+    border-radius: 6px;
+}
+/*______________________________________________*/
+
+
+
+
+
+
+
+/*______________________________________________*/
+.Main_6_ka_main_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add_for_image{
+    width: 70%;
+    height: 400px;
+    margin-top:-19px;
+    display: flex;
+    border: 6px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.add_for_image:hover{
+    width: 90%;
+    height: 400px;
+    transition-duration: 3s;
+    animation-play-state: running;
+
+}
+
+.adds_img{
+    width: 50%;
+    height: 400px;
+} 
+
+.for_adds{
+     width: 60%;
+     height: 580px;
+     border: 2px solid black;
+     border-radius: 6px;
+     margin-top: 20px;
+     background-color: #fff;
+     background: linear-gradient(
+              to RIGHT,
+              rgb(0, 0, 0),
+              rgb(0, 43, 76),
+              rgb(0, 0, 168)
+     );
+}
+.for_adds:hover{
+    width: 60%;
+    height: 580px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-top: 20px;
+    background-color: #fff;
+    background: linear-gradient(
+             to RIGHT,
+             rgb(200, 80, 0),
+             rgb(233, 245, 255),
+             rgb(0, 69, 2)
+    );
+}
+.span_ka_div{
+    width: auto;
+    height: auto;
+}
+.add_ka_Span-1{
+     font-size: 20px;
+     font-weight: 900;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: oblique;
+     border: 2px solid black;
+     border-radius: 6px;
+     margin-left: 20px;
+     margin-top: 10px;
+     color: #ffffff;
+     background:linear-gradient(
+            to RIGHT,
+            rgb(14, 255, 114),
+            rgb(0, 0, 255),
+            rgb(255, 47, 82)
+     );
+}
+/* .add_ka_Span-1:hover{
+    width: 60px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+     font-weight: 900;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: oblique;
+     border: 2px solid black;
+     border-radius: 6px;
+     margin-left: 75px;
+     margin-top: 40px;
+     color: #ffffff;
+     transition-duration: 3s;
+     background:linear-gradient(
+            to RIGHT,
+            rgb(0, 86, 88),
+            rgb(18, 18, 182),
+            rgb(23, 56, 0)
+     );
+     box-shadow:linear-gradient(
+        to RIGHT,
+        rgb(0, 251, 255),
+        rgb(18, 18, 182),
+        rgb(184, 0, 0)
+        7px 6px 8px 8px
+ );
+} */
+
+.add_ka_Span-2{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: oblique;
+     border: 2px solid black;
+     border-radius: 6px;
+     color: #000000;
+     background:linear-gradient(
+            to RIGHT,
+            rgb(255, 102, 0),
+            rgb(255, 255, 255),
+            rgb(30, 113, 0)
+     );
+
+}
+
+
+.add_ka_Span-2:hover{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: oblique;
+     border: 2px solid black;
+     border-radius: 6px;
+     color: #000000;
+     transition-duration: 4s;
+     background:linear-gradient(
+            to RIGHT,
+            rgb(0, 183, 244),
+            rgb(11, 11, 255),
+            rgb(98, 236, 0)
+     );
+
+}
+/*___________________________________________________*/
+
+
+/*______________________________________*/
+.main_div_6_ka_baap{
+    width: 98.45%;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.scrolling_div_ka_per{
+    width:100%;
+    height: 400px;
+    border: 3px solid black; 
+    border-radius: 3px;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:linear-gradient(
+        to RIGHT,
+        rgb(94, 215, 255),
+        rgb(0, 0, 192),
+        rgb(0, 0, 0)
+ );
+}
+.main_6_image_ka_div{
+    width: 250px;
+    height: 330px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    background:linear-gradient(
+        to RIGHT,
+        rgb(234, 117, 0),
+        rgb(0, 255, 0),
+        rgb(0, 0, 192),
+         rgb(0, 0, 0) ,
+        rgb(255, 101, 101)
+ );
+}
+.main_6_ka_image{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 20px;
+}
+.main_6_ka_p{
+    width: 100%;
+    height: 40px;
+    border: 2px black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #ff0000;
+    text-align: center;
+    justify-self: stretch;
+}
+.main_6_ka_p-2{
+    width: 100%;
+    height: 40px;
+    border: 2px black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -20px;
+}
+/*_____________________________________________*/
+
+
+
+
+
+/*_____________________________________________*/
+body .Footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(21, 21, 21);
+    margin-top: 2095px;
+    align-items: center;
+    margin-bottom: -100px;
+    
+}
+
+.footer_ka_div
+{
+    width: 95%;
+    height: 245px;
+    border: 1px solid rgb(21, 21, 21);
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.collection_list_ka_div{
+    width:150px ;
+    height: 245px;
+    align-items: center;
+    text-align: center;
+    border: 2px rgb(234, 0, 0);
+    margin-top: 60px;
+}
+
+.foot_ul
+{
+    font-size: 14px;
+    font-weight: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #939393;
+    text-align:start;
+    /* margin-right: 100px; */
+    margin-bottom: 15px;
+}
+
+.foot_li
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: start;
+    list-style: none;
+}
+
+.line{
+     width: 0px;
+     height: 160px;
+     border: 1px solid rgb(56, 56, 56);
+}
+
+.line_width{
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(47, 47, 47);
+}
+
+li img{
+    margin-top:10px ;
+    margin-right: 20px;
+}
+
+.last_div{
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-top: 20px;
+}
+
+.last_div_div{
+    width: 150px;
+    height: 100px;
+    column-gap: 10px;
+    color: #d6d6d6;
+}
+
+.last_div_span{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    background-color: #131313;
+}
+
+.last_div img{
+     margin-bottom: 80px;
+}
+
+
+.x{
+    color: #ff0000;
+    margin-top: -150px;
+}
+html{
+     background-color: rgb(21, 21, 21);
+}
